@@ -1,0 +1,34 @@
+{
+  "name": "gulp-fountain",
+  "description": "Convert fountain files",
+  "version": "0.0.1",
+  "author": "Robert Hall <@arxpoetica>",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin"
+  ],
+  "dependencies": {
+    "fountain-js": "0.0.1",
+    "gulp-util": "3.0.7",
+    "through2": "2.0.0"
+  },
+  "devDependencies": {
+    "gulp": "3.9.0",
+    "istanbul": "^0.3.2",
+    "mocha": "^2.0.1",
+    "mocha-lcov-reporter": "0.0.1",
+    "should": "^5.0.0",
+    "stream-array": "^1.0.1",
+    "stream-assert": "^2.0.1"
+  },
+  "scripts": {
+    "test": "mocha",
+    "coverage": "istanbul cover _mocha"
+  },
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "license": "MIT"
+}
