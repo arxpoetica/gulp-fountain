@@ -10,6 +10,7 @@
     "gulpplugin"
   ],
   "dependencies": {
+    "bufferstreams": "1.1.0",
     "fountain-js": "0.0.1",
     "gulp-util": "3.0.7",
     "through2": "2.0.0"
